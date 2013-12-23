@@ -1,0 +1,17 @@
+<component name="ArtifactManager">
+  <artifact type="apk" name="tracker">
+    <output-path>$PROJECT_DIR$/../../../dropbox/Public</output-path>
+    <properties id="android-properties">
+      <options>
+        <option name="keyAlias" value="lsymmsdebug" />
+        <option name="keyPassword" value="bGxsbGxs" />
+        <option name="keyStorePassword" value="bGxsbGxs" />
+        <option name="keyStoreUrl" value="file://$USER_HOME$/android/keystore" />
+        <option name="signingMode" value="RELEASE_SIGNED" />
+      </options>
+    </properties>
+    <root id="archive" name="tracker.apk">
+      <element id="android-final-package" facet="tracker/android/Android" />
+    </root>
+  </artifact>
+</component>
